@@ -51,6 +51,8 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-graphql")
+    implementation("org.springframework.graphql:spring-graphql:1.2.3")
+
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
     implementation("io.micrometer:micrometer-registry-prometheus")
