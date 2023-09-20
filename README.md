@@ -8,11 +8,11 @@ Observation <> to which we're restoring is not the same as the one set as this s
 This error causes all our tests to fail.
 
 ## Libraries used
-Java 17+
-Spring Boot 3.1.3 (>3.1.1)
-Spring GraphQl
-Micrometer Observation
-Datasource Micrometer (net.ttddyy.observation:datasource-micrometer)
+* Java 17+
+* Spring Boot 3.1.3 (>3.1.1)
+* Spring GraphQl
+* Micrometer Observation
+* Datasource Micrometer (net.ttddyy.observation:datasource-micrometer)
 
 ## How to reproduce.
 Start the Spring Boot application, with Java assertions enabled:
